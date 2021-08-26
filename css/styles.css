@@ -1,0 +1,8 @@
+.gallery__img {
+  display: block;
+  margin: 15px;
+  width: 1200px;
+  border: 2mm ridge rgba(170, 50, 220, 0.6);
+  /* border: dashed  chocolate; */
+  border-radius: 10px 100px / 120px;
+}
