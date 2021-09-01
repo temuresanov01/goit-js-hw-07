@@ -8,3 +8,17 @@ const childCategories = array => {
 }
 childCategories(categories);
 
+
+
+// //  В СПИСКЕ 3 КАТЕГОРИИ ( ВЫВОДИТ В КОНСОЛЬ )
+// const listEl = document.querySelectorAll('#categories>li');
+// console.log(`В списке ${listEl.length} категории`);
+
+// // ЗАГОЛОВОК ЭЛЕМЕНТА И ЕГО ДЕТИ
+// const totalCountCategories = listEl;
+// const ArrayCategories = [...totalCountCategories];
+
+// ArrayCategories.map(category => {
+//     console.log(`Категория: ${category.firstElementChild.textContent}`);
+//     console.log(`Количество елементов: ${category.lastElementChild.children.length}`);
+// })
