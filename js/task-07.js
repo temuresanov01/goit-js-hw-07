@@ -1,18 +1,26 @@
+// let zoom = document.querySelector("#font-size-control");
+
+// let text = document.querySelector("#text");
+
+// zoom.oninput = function() {
+//   text.style.fontSize = zoom.value + 'px';
+// };
+
+// 2 метод через (addEventListener)
+
 let zoom = document.querySelector("#font-size-control");
 
 let text = document.querySelector("#text");
 
-zoom.oninput = function() {
-  text.style.fontSize = zoom.value + 'px';
-};
+zoom.addEventListener('input', elem => {
+    elem.preventDefault()
+  text.style.fontSize = `${zoom.value}px`;
+  
+// показывает на сколько стоит ползунок
+  
+  console.log(zoom.value);
 
-// Привет! ТАСК_7
-// Так плохо это утарело
-// zoom.oninput = function() {
-// text.style.fontSize = zoom.value + 'px';
-// };
-
-// Через addEventListeneк
-// zoom.addEventListener('inpit', ()=>{})
-
-// ТАСК . Строка 22 лучше на тернарник переписать
+// показывает на сколько изменился размер шрифта в px
+  
+    console.log(text.style.fontSize);
+}) 
