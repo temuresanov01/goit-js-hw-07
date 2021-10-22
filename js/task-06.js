@@ -27,3 +27,37 @@ inputRef.addEventListener('blur', onInputBlur);
 // }
 
 // inputRef.addEventListener('blur', onInputBlur);
+
+//  метод 3
+
+// const inputChange = document.querySelector('#validation-input');
+// const dataLength = Number(inputChange.getAttribute('data-length'));
+
+// const blurInputArea = () => {
+//     if (dataLength === inputChange.value.length) {
+//         inputChange.classList = 'valid'
+//     } else {
+//         inputChange.classList = 'invalid'
+//     }
+// }
+// inputChange.addEventListener('blur', blurInputArea);
+
+// метод 4
+
+// const inputChange = document.querySelector('#validation-input');
+// const dataLength = Number(inputChange.getAttribute('data-length'));
+// inputChange.addEventListener('blur', blurInputArea);
+
+// function blurInputArea() {
+//     if (dataLength === inputChange.value.length) {
+//         inputChange.classList.remove = ('invalid')
+//         inputChange.classList = ('valid')
+//     } else {
+//          inputChange.classList.remove = ('valid')
+//         inputChange.classList = ('invalid')
+//     }
+// }
+
+
+
+
